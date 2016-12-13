@@ -1,0 +1,141 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url("font/Montserrat-Regular.ttf");
+  font-weight: normal;
+}
+/*============ Index ==========*/
+.text-center h2,.text-center #memberteam h4,.text-center #team h3,#memberteam {
+  font-family: 'Montserrat';
+}
+.text-center #team h3{
+  font-size: 20pt;
+
+}
+.nim-menu.navbar-default .navbar-nav > li > a{
+  font-family: 'Montserrat';
+  font-size: 15pt;
+  border-bottom: 4px solid transparent;
+}
+.nim-menu.navbar-default .navbar-nav > li > a:hover{
+    border-bottom: 4px solid;
+  }
+#btn-1:hover{
+   background-color:transparent;
+   color: #fff;
+   border: 1px solid #fff;
+}
+#btn-2:hover{
+  background-color: #F8198E;
+  color: #F8198E;
+  border-color: #F8198E;
+  color: #fff;
+}
+.a-slog{
+  max-width: 500px;
+}
+#memberteam img {
+  width: 185px;
+  height: 185px;
+  border-radius: 50%;
+  border: 9px solid #f8198d;
+  /*transition: transform 1s ease-in;*/
+  -webkit-animation: play 3s infinite;
+  animation: play 5s infinite;
+}
+@-webkit-keyframes play {
+   from { transform: rotateY(0deg); }
+     to { transform: rotateY(-360deg);}
+}
+/*#memberteam img:hover{
+  transform: rotateY(-360deg);
+}*/
+#memberteam #a {
+  background-image: url("../images/hafidh.jpg");
+  background-size: 302px;
+  background-position: -52px -110px;
+  margin-left: -2%;
+  /*animation-duration: 3s;*/
+}
+#memberteam #b{
+  background-image: url("../images/wage1.jpg");
+  background-size: 531px;
+  background-position: -185px -57px;
+  margin-left: -2%;
+  /*animation-delay: 3s;*/
+}
+#memberteam #c{
+  background-image: url("../images/fadel.png");
+  background-size: 388px;
+  background-position: -111px -28px;
+  margin-left: -4%;
+    /*animation-delay: 6s;*/
+}
+#memberteam #d{
+  background-image: url("../images/afif.jpg");
+  background-size: 234px;
+  background-position: -27px -19px;
+  margin-left: -4%;
+    /*animation-delay: 9s;*/
+}
+#memberteam #e{
+  background-image: url("../images/khanif.jpg");
+  background-size: 285px;
+  background-position: -50px -3px;
+  margin-left: -4%;
+    /*animation-delay: 12s;*/
+}
+/*============ Index ==========*/
+/*============ Hitung ==========*/
+#bodyhitung{
+  background-color: #303030;
+  margin-top: 3%;
+  font-family: 'Montserrat';
+}
+#container-hitung{
+  background-color: #fff;
+  padding: 30px;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  padding-bottom: 50px;
+}
+.inti {
+  padding-bottom: 30px;
+}
+.bagian-tengah{
+  background-color: #fff;
+  padding-top: 10px;
+}
+#inputnya{
+  margin-top: 4%;
+  padding-top: 4%;
+  padding-left: 3%;
+}
+#tombolx{
+  position: absolute;
+  padding-top: 2.5%;
+  padding-left: 3%;
+}
+/*============ Hitung ==========*/
+/*============ Regresi ==========*/
+#back{
+  padding: 0.5% 3% 0.5% 3%;
+  font-size: 12pt;
+  font-family: 'Montserrat';
+}
+#submenu li a:hover{
+  text-decoration: none;
+}
+#tablenya, #tablenya thead tr th{
+  font-family: 'Montserrat';
+  text-align: center;
+}
+#tablenya{
+  border: 3px solid #ddd;
+}
+.rumus p{
+  font-size: 20pt;
+}
+.calculator p{
+  font-size: 12pt;
+}
+/*============ Regresi ==========*/
