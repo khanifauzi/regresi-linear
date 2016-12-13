@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Montserrat';
+  src: url("font/Montserrat-Regular.ttf");
+  font-weight: normal;
+}
+body{
+  margin-left: 5%;
+  margin-top: 3%;
+  font-family: 'Montserrat';
+}
+button{
+  font-family: 'Montserrat';
+  background-color: #1f3bba;
+  border: 1px solid #1f3bba;
+  color: #fff;
+  padding: 1% 1% 1% 1%;
+  border-radius: 10px;
+}
+button:hover{
+  
+}
+#judul{
+  text-align: center;
+}
